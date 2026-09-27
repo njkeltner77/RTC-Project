@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Natasha Keltner's cybersecurity studies, software projects, and hands-on technology labs."
+    />
+    <meta name="theme-color" content="#f8f7fb" />
+    <link rel="icon" href="data:," />
+    <title>Natasha Keltner | Cybersecurity &amp; Software</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Natasha Keltner, home">
+          <span class="brand-mark" aria-hidden="true">NK</span>
+          <span>Natasha Keltner</span>
+        </a>
+
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+            <span class="theme-icon" aria-hidden="true">☾</span>
+            <span class="theme-label">Dark mode</span>
+          </button>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            Menu
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" id="top" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Cybersecurity student · hands-on builder</p>
+          <h1 id="intro-title">Curious about how systems work — and how to make them safer.</h1>
+          <p class="hero-intro">
+            I’m Natasha, a cybersecurity student building practical experience across Linux
+            infrastructure, software, and the web.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#timeline">Explore my timeline <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="mailto:njkeltner1@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Current education">
+          <img class="headshot" src="image/headshot.png" alt="Headshot of Natasha Keltner" />
+          <span class="note-index">01 / CURRENT FOCUS</span>
+          <p class="note-title">Cybersecurity &amp; Information Assurance</p>
+          <p class="note-detail">Western Governors University</p>
+          <span class="note-date">August 2026 — April 2030</span>
+        </aside>
+        <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> Scroll to explore</a>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <p class="section-kicker">A little about me</p>
+          <div>
+            <h2 id="about-title">Learning by building, from the operating system up.</h2>
+            <p>
+              My projects range from provisioning Linux virtual machines to deploying a
+              WordPress site on a LAMP stack and writing small applications in Python.
+              I enjoy understanding what happens behind the interface as much as what
+              people see on screen.
+            </p>
+            <p>
+              I’m currently studying Cybersecurity and Information Assurance at Western
+              Governors University. I’m also a member of WiCyS, Rewriting the Code, and
+              Women in Technology.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section section" id="timeline" aria-labelledby="timeline-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">The work behind the learning</p>
+              <h2 id="timeline-title">Projects &amp; milestones</h2>
+            </div>
+            <p class="section-summary">
+              A single timeline of hands-on projects, education, and communities.
+            </p>
+          </div>
+
+          <p class="timeline-context">
+            The résumé you shared doesn’t list employment roles or dates for the projects,
+            so this timeline keeps those entries undated rather than guessing.
+          </p>
+
+          <div class="filter-wrap">
+            <div class="filters" role="group" aria-label="Filter timeline entries" hidden>
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Everything <span>09</span></button>
+              <button class="filter-button" type="button" data-filter="project" aria-pressed="false">Projects <span>04</span></button>
+              <button class="filter-button" type="button" data-filter="education" aria-pressed="false">Education <span>02</span></button>
+              <button class="filter-button" type="button" data-filter="community" aria-pressed="false">Communities <span>03</span></button>
+            </div>
+            <p class="filter-status" id="filter-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <ol class="timeline-list" id="timeline-list">
+            <li class="timeline-entry" data-entry data-category="education">
+              <div class="entry-date">
+                <span class="date-label">August 2026 — April 2030</span>
+                <span class="date-type">In progress</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Education</span>
+                  <span class="entry-number" aria-hidden="true">01</span>
+                </div>
+                <h3>Bachelor of Science, Cybersecurity and Information Assurance</h3>
+                <p class="entry-organization">Western Governors University</p>
+                <p>
+                  Current studies in cybersecurity and information assurance, building on
+                  coursework in IT foundations, networking, system security, and data.
+                </p>
+                <ul class="tag-list" aria-label="Coursework">
+                  <li>IT foundations</li>
+                  <li>Network infrastructure</li>
+                  <li>Windows &amp; Linux administration</li>
+                  <li>Systems &amp; data security</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="project">
+              <div class="entry-date">
+                <span class="date-label">Selected project</span>
+                <span class="date-type">Virtualization · Linux</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Project</span>
+                  <span class="entry-number" aria-hidden="true">02</span>
+                </div>
+                <h3>Proxmox &amp; virtualization lab</h3>
+                <p class="entry-organization">Enterprise VM provisioning &amp; Linux deployment</p>
+                <p>
+                  Set up a type-1 Proxmox VE hypervisor and provisioned a Rocky Linux
+                  virtual machine to explore a small enterprise-style server environment.
+                </p>
+                <ul class="entry-highlights">
+                  <li>Configured operating-system settings, storage, and virtual network interfaces.</li>
+                  <li>Handled system updates, packages, and basic security hardening.</li>
+                  <li>Checked CPU, memory, and disk use for VM stability.</li>
+                </ul>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Proxmox VE</li>
+                  <li>Rocky Linux</li>
+                  <li>KVM</li>
+                  <li>Shell / Bash</li>
+                  <li>Networking</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="project">
+              <div class="entry-date">
+                <span class="date-label">Selected project</span>
+                <span class="date-type">Web infrastructure · Linux</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Project</span>
+                  <span class="entry-number" aria-hidden="true">03</span>
+                </div>
+                <h3>LAMP stack &amp; web infrastructure lab</h3>
+                <p class="entry-organization">WordPress deployment on a Linux enterprise stack</p>
+                <p>
+                  Configured a Linux, Apache, MySQL, and PHP environment to host a
+                  WordPress content management system.
+                </p>
+                <ul class="entry-highlights">
+                  <li>Set up Apache request handling and virtual hosts.</li>
+                  <li>Created MySQL databases and dedicated user permissions.</li>
+                  <li>Configured PHP and system dependencies for the application.</li>
+                </ul>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Linux</li>
+                  <li>Apache</li>
+                  <li>MySQL</li>
+                  <li>PHP</li>
+                  <li>WordPress</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="project">
+              <div class="entry-date">
+                <span class="date-label">Selected project</span>
+                <span class="date-type">Python · CLI</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Project</span>
+                  <span class="entry-number" aria-hidden="true">04</span>
+                </div>
+                <h3>Rock, paper, scissors</h3>
+                <p class="entry-organization">Interactive command-line application</p>
+                <p>
+                  Built a small Python game using control flow, conditional logic, and
+                  state management.
+                </p>
+                <ul class="entry-highlights">
+                  <li>Added randomized computer choices and checked user input.</li>
+                  <li>Practiced debugging and local source control workflows in VS Code.</li>
+                </ul>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Python</li>
+                  <li>VS Code</li>
+                  <li>GitHub</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="project">
+              <div class="entry-date">
+                <span class="date-label">Selected project</span>
+                <span class="date-type">Web development · AI-assisted</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Project</span>
+                  <span class="entry-number" aria-hidden="true">05</span>
+                </div>
+                <h3>Personal portfolio website</h3>
+                <p class="entry-organization">Responsive site · GitHub to Netlify deployment</p>
+                <p>
+                  Designed and built a responsive portfolio site with HTML, CSS, and
+                  JavaScript, using AI coding tools to support the development process.
+                </p>
+                <ul class="entry-highlights">
+                  <li>Managed project files and version history with Git and GitHub.</li>
+                  <li>Connected the main GitHub branch to Netlify for continuous deployment.</li>
+                  <li>Tested page layout across browsers and refined asset loading.</li>
+                </ul>
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>GitHub</li>
+                  <li>Netlify</li>
+                </ul>
+                <a class="entry-link" href="https://natasha-keltner.netlify.app" target="_blank" rel="noreferrer">
+                  Visit the live portfolio <span aria-hidden="true">↗</span>
+                </a>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="community">
+              <div class="entry-date">
+                <span class="date-label">Membership</span>
+                <span class="date-type">Cybersecurity</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Community</span>
+                  <span class="entry-number" aria-hidden="true">06</span>
+                </div>
+                <h3>Women in Cybersecurity (WiCyS)</h3>
+                <p>
+                  Active member participating in technical workshops, networking, and
+                  industry mentorship opportunities.
+                </p>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="education">
+              <div class="entry-date">
+                <span class="date-label">October 2024 — April 2026</span>
+                <span class="date-type">Completed</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Education</span>
+                  <span class="entry-number" aria-hidden="true">07</span>
+                </div>
+                <h3>Bachelor of Science, Cybersecurity</h3>
+                <p class="entry-organization">Full Sail University</p>
+                <p>
+                  Completed a Bachelor of Science program in Cybersecurity. Coursework
+                  included foundational IT and network infrastructure.
+                </p>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="community">
+              <div class="entry-date">
+                <span class="date-label">Membership</span>
+                <span class="date-type">Technology</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Community</span>
+                  <span class="entry-number" aria-hidden="true">08</span>
+                </div>
+                <h3>Rewriting the Code</h3>
+                <p>
+                  Community member engaging with peer mentorship, technical skill-building
+                  cohorts, and early-career technology development.
+                </p>
+              </article>
+            </li>
+
+            <li class="timeline-entry" data-entry data-category="community">
+              <div class="entry-date">
+                <span class="date-label">Membership</span>
+                <span class="date-type">Technology</span>
+              </div>
+              <article class="entry-card">
+                <div class="entry-topline">
+                  <span class="entry-category">Community</span>
+                  <span class="entry-number" aria-hidden="true">09</span>
+                </div>
+                <h3>Women in Technology (WIT)</h3>
+                <p>
+                  Member connecting through technical webinars and professional
+                  networking events.
+                </p>
+              </article>
+            </li>
+          </ol>
+          <p class="empty-state" id="empty-state" hidden>No entries match this filter.</p>
+        </div>
+      </section>
+
+      <section class="skills-section section" id="skills" aria-labelledby="skills-title">
+        <div class="container skills-grid">
+          <div>
+            <p class="section-kicker">Tools of the trade</p>
+            <h2 id="skills-title">Technologies I’m learning and using</h2>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <p>C, C++, Go, Java, Python, JavaScript, SQL</p>
+            </div>
+            <div class="skill-group">
+              <h3>Web &amp; application</h3>
+              <p>React, Node.js, Express, Django, Spring, Hibernate, HTML, CSS</p>
+            </div>
+            <div class="skill-group">
+              <h3>Systems &amp; security</h3>
+              <p>Linux, shell scripting, Docker, Kubernetes, Splunk, Oracle, MongoDB</p>
+            </div>
+            <div class="skill-group">
+              <h3>Data &amp; tools</h3>
+              <p>PyTorch, TensorFlow, Horovod, Tableau, D3.js, GitHub, Jenkins</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-card">
+          <div>
+            <p class="section-kicker">Say hello</p>
+            <h2 id="contact-title">Let’s connect.</h2>
+            <p>Interested in cybersecurity, infrastructure, or building something useful? I’d love to hear from you.</p>
+          </div>
+          <div class="contact-links">
+            <a class="button button-light" href="mailto:njkeltner1@gmail.com">Email Natasha <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/njkeltner77" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/natasha-keltner/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="#top">Natasha Keltner <span>·</span> Cybersecurity &amp; software</a>
+        <p>© <span id="year"></span> Natasha Keltner</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

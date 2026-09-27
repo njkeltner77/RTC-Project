@@ -1,18 +1,30 @@
-# RTC-Project
-A Rewriting the Code project created to strengthen my developer portfolio. This challenge was fun, beginner‑friendly, and a great way to practice real‑world skills.
+# Natasha Keltner — Portfolio
 
-In this project, I built, tested, and deployed a personal portfolio website using AI-assisted development in VS Code. Along the way, I practiced:
+A responsive, single-page portfolio built with plain HTML, CSS, and JavaScript. The
+page presents projects, education, and community memberships as one filterable
+timeline. Timeline entries are included in the HTML so they remain readable when
+JavaScript is disabled; JavaScript enhances the page with category filters and the
+mobile navigation.
 
-writing effective prompts
+## Preview locally
 
-working with GitHub
+From the project directory, start Python's static file server:
 
-deploying with Netlify
+```powershell
+py -m http.server 8000
+```
 
-organizing project files
+Open [http://localhost:8000](http://localhost:8000). Press `Ctrl+C` in the terminal
+to stop the server.
 
-improving my workflow as a beginner developer
+## Content notes
 
-This project helped me get comfortable with modern development tools while creating something I can proudly showcase.
+The timeline content is based on the résumé supplied for this portfolio. It lists
+projects, education, and memberships, but no employment history or project dates;
+those have intentionally not been invented. Edit the semantic entries in `index.html`
+and their `data-category` attributes to update the timeline. The filter controls in
+`index.html` and filtering behavior in `script.js` should stay aligned with the
+categories used by those entries.
 
-I restarted this project because the first draft wasn’t showing my strengths the way it needed to. After reading an RTC article about writing a tech resume, I realized I could level it up — so I rebuilt it with a cleaner structure and a stronger sense of what I bring to the table.
+The GitHub Pages workflow publishes the static site from the repository root when
+changes are pushed to `main`.
